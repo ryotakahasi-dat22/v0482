@@ -17,5 +17,10 @@ namespace v0482
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int a = 0;
+            MessageBox.Show("" + (10 /a));
+        }
     }
 }
