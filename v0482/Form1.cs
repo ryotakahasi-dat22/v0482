@@ -19,8 +19,9 @@ namespace v0482
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int a = 0;
+            int a = 1;
             MessageBox.Show("" + (10 /a));
+            mybutton.Visible = false;
         }
     }
 }
